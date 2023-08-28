@@ -10,6 +10,7 @@
 - Export connection data to various formats, including text files, CSV files, Excel spreadsheets, and HTML files.
 - Search for connections based on process names, allowing you to quickly locate specific connections.
 - Double-click on a connection to see detailed information about the process associated with that connection.
+- Cross-platform compatibility: Tested on Parrot Security 5.3, Ubuntu 18.04 LTS, Windows 10, and Windows 11.
 
 ## Prerequisites
 
@@ -25,20 +26,7 @@ You can install the required libraries using the following command:
 pip install psutil pandas
 
 ## Usage
-
-1. Clone the repository to your local machine:
-
-git clone https://github.com/ru7hra/ru7-network-monitor.git
-
-2. Navigate to the project directory:
-
-cd Network-Connections-Monitor
-
-3. Run the application:
-
-python ru7nm.py
-
-4. The application window will appear, showing a list of network connections. You can interact with the GUI to refresh the list, sort connections, search for specific processes, and export data.
+Simply run the Python script to launch the application and start monitoring network connections. The application window will appear, displaying a list of active network connections. You can interact with the GUI to refresh the list, sort connections, search for specific processes, and export data.
 
 ---
 
